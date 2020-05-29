@@ -5,7 +5,7 @@
 ```
 // URL might difer by once deployed try the endpoint with your Twig renderer request. For example:
 
-https://vercel-v2-twig-renderer.now.sh/?templatePath=@bolt-components-button/button.twig&text=hey%20knapsack%20👋
+https://vercel-v2-twig-renderer-d0ia8jee9.now.sh/?templatePath=%40bolt-components-button%2Fbutton.twig&text=hey%20knapsack%20%F0%9F%91%8B
 ```
 
 <!-- ## To Test Locally (NOTE: this won't work locally atm until some path updates to due Vercel v2.0 compat are ironed out)
