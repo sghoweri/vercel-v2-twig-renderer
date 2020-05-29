@@ -1,0 +1,7 @@
+# !**/*
+.vercel
+data
+public
+templates
+node_modules
+vendor

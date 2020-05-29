@@ -1,0 +1,32 @@
+{
+  "name": "vercel-v2-twig-renderer",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "POC using Vercel v2 API to render PHP-based Twig templates",
+  "maintainers": [
+    {
+      "name": "Salem Ghoweri",
+      "email": "me@salemghoweri.com",
+      "web": "https://github.com/sghoweri"
+    }
+  ],
+  "scripts": {
+    "setup": "yarn && composer install --prefer-dist --no-dev",
+    "start": "php -S localhost:8080 api/index.php",
+    "deploy": "yarn build && vercel",
+    "build": "node setup.js"
+  },
+  "dependencies": {
+    "cosmiconfig": "^5.2.1",
+    "axios": "^0.19.0",
+    "cpy": "^7.3.0",
+    "globby": "^9.2.0",
+    "mkdirp": "^1.0.4",
+    "@bolt/components-button": "^2.23.0",
+    "@bolt/components-navbar": "^2.23.0",
+    "@bolt/components-icon": "^2.23.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
